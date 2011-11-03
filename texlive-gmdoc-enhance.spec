@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/gmdoc-enhance
+# catalog-date 2009-03-01 13:29:14 +0100
+# catalog-license lppl
+# catalog-version v0.2
 Name:		texlive-gmdoc-enhance
 Version:	v0.2
 Release:	1
@@ -45,6 +51,7 @@ to "comment out" some code, and a macro to input other files in
 #- source
 %doc %{_texmfdistdir}/source/latex/gmdoc-enhance/gmdoc-enhance.dtx
 %doc %{_texmfdistdir}/source/latex/gmdoc-enhance/gmdoc-enhance.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ to "comment out" some code, and a macro to input other files in
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
