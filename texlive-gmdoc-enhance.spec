@@ -6,7 +6,7 @@
 # catalog-version v0.2
 Name:		texlive-gmdoc-enhance
 Version:	v0.2
-Release:	2
+Release:	3
 Summary:	Some enhancements to the gmdoc package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmdoc-enhance
