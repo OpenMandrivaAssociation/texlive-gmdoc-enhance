@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/gmdoc-enhance
-# catalog-date 2009-03-01 13:29:14 +0100
-# catalog-license lppl
-# catalog-version v0.2
 Name:		texlive-gmdoc-enhance
-Version:	v0.2
-Release:	10
+Version:	0.2
+Release:	1
 Summary:	Some enhancements to the gmdoc package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmdoc-enhance
@@ -51,17 +45,3 @@ to "comment out" some code, and a macro to input other files in
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.2-2
-+ Revision: 752358
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.2-1
-+ Revision: 718563
-- texlive-gmdoc-enhance
-- texlive-gmdoc-enhance
-- texlive-gmdoc-enhance
-- texlive-gmdoc-enhance
-
