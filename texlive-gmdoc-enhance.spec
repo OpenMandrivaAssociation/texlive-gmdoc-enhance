@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Some enhancements to the gmdoc package
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gmdoc-enhance
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/gmdoc-enhance
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gmdoc-enhance.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gmdoc-enhance.doc.r%{version}.tar.xz
